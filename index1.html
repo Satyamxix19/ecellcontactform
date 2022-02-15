@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="ecell1.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon1.ico" />
+</head>
+
+<body>
+    <div class="main">
+        <div id="head">
+            <h2> Contact Form </h2>
+        </div>
+        <br>
+        <form>
+            <label class="hdng" for="name"> Name</label>
+            <div>
+                <input class="input" type="text" name="myName" id="name" placeholder="Enter your name">
+            </div>
+            <br>
+            <label class="hdng" for="email"> Email</label>
+
+            <div>
+                <input class="input" type="email" name="myEmail" placeholder="Enter your Email">
+            </div>
+
+
+            <br>
+
+            <label class="hdng" for="Age">Age</label>
+            <div>
+                <input class="input" type="number" min="0" name="Age" placeholder="Enter your Age ">
+            </div>
+            <br>
+            <label class="hdng" for="role">Which option best describes your current role? </label>
+            <div>
+
+                <select class="choose" name="Your role" id="role">
+                    <option value="selrole" disabled="disabled" selected="selected">-- Select current role</option>
+                    <option value="Web developer">Web developer</option>
+                    <option value="App developer">App developer</option>
+                    <option value="Graphic designer">Graphic designer</option>
+                    <option value="Marketing">Marketing</option>
+                </select>
+            </div>
+            <br>
+
+            <label class="hdng" for="AbtECELL">What is the one thing which excites you most about Ecell</label>
+            <div>
+                <select class="choose" name="AbtARES" id="ARES">
+                    <option value="selrole" disabled="disabled" selected="selected">-- Select current role</option>
+                    <option value="Entrepreneurs">Entrepreneurs</option>
+                    <option value="Technology "> Technology</option>
+                    <option value="Community of Ecell">Community of Ecell</option>
+                    <option value="Ecell's Events">Ecell's Events</option>
+
+                </select>
+            </div>
+            <br>
+            <label class="hdng" for="Suggestions">Any comment or Suggestions? </label>
+            <div>
+                <textarea class="textarea" name="suggestions" id="cmntsgs" cols="50" rows="10"
+                    placeholder="Enter your comment here..."></textarea>
+            </div>
+            <br>
+
+            <div>
+                <input class="submit" type="submit" value="Submit Now">
+            </div>
+
+        </form>
+
+
+
+</body>
+
+</html>
